@@ -3,7 +3,7 @@ import React from 'react';
 function Details(props)
 {
   const student=props.students.map(s=>
-  <tr key={s.id}>
+  <tr key={s.studentId}>
     <td>{s.studentId}</td>
     <td>{s.studentName}</td>
     <td>{s.studentMarks}</td>
