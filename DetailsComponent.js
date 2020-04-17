@@ -12,9 +12,9 @@ function Details(props)
   return (
     <div>
       <table border="1" style={{textAlign:"center"}}>
-        <thead>
+        <thead style={{color:"white",backgroundColor:"grey"}}>
           <tr>
-            <td>Student ID</td>
+            <td style={{padding:"10px"}}>Student ID</td>
             <td>Student Name</td>
             <td>Student Marks</td>
           </tr>
